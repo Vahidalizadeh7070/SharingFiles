@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVVSXlKYSHUuZ0nCrLg1K5QAAAAACAAAAAAAQZgAAAAEAACAAAABW8ufNKBRIuOuSXg82mtVv+smXST9JZEl0wq5ls3Re/AAAAAAOgAAAAAIAACAAAACO5WxtUzphvB+t80pvZtxqasQZJpD+FMCKkRqebcqq0IAAAADD5MiG6nPEbMa26NlQsmW25vNoobQOrpnLTnfCZoPJXE4EH56wsWoQiZy4Ue9Gwh8EMEJd4T4SpVMhUqJNe7HpQ94ofYHm5C+6nucjPCiQwno34CqlBoUl0r1AIUqiLPc3Ep8zVHHh2VV1wUbXiVMoKSSbSwDyIpxqatYE88GjeUAAAAB/bbjaeFwdFjRPaaCp/ZCQlhMxT0YggEBZb4DxzMsUCALZMMNvJ4CDuxUm+sCQMsau4FfbBuVd/hqICweMudi+</EncryptedPassword>
+    <History>True|2022-05-31T01:03:14.1822901Z;True|2022-05-31T05:27:45.3669363+04:30;True|2022-05-31T03:17:19.6824579+04:30;False|2022-05-31T03:16:14.5458279+04:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="dr_heinekamp.Models.AppDbContext">
+      <Value>Data Source=tcp:dr-heinekampdbserver.database.windows.net,1433%3bInitial Catalog=dr_heinekamp_db%3bUser Id=dr-heinekamp%40dr-heinekampdbserver%3bPassword=Aa%2a123456</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

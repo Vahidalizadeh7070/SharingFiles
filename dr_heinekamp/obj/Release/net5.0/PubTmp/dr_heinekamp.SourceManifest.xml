@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="H:\WebSite Project\dr_heinekamp\dr_heinekamp\obj\Release\net5.0\PubTmp\Out\" />
+  <dbfullsql path="H:\WebSite Project\dr_heinekamp\dr_heinekamp\obj\Release\net5.0\PubTmp\EFSQLScripts\dr_heinekamp.Models.AppDbContext.sql" />
+</sitemanifest>

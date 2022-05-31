@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/SharingAPI/apis/sharing-files-api2022",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/dr-heinekampdbserver/databases/dr_heinekamp_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DbConnection",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

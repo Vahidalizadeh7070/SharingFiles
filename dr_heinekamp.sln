@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dr_heinekamp", "dr_heinekamp\dr_heinekamp.csproj", "{CEBFB765-9EA6-4E4C-8CD8-8269AC576219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dr_heinekampTest", "dr_heinekampTest\dr_heinekampTest.csproj", "{BE7A9E86-DEFE-43FE-B309-410F2846746A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEBFB765-9EA6-4E4C-8CD8-8269AC576219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBFB765-9EA6-4E4C-8CD8-8269AC576219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBFB765-9EA6-4E4C-8CD8-8269AC576219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBFB765-9EA6-4E4C-8CD8-8269AC576219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7A9E86-DEFE-43FE-B309-410F2846746A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7A9E86-DEFE-43FE-B309-410F2846746A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7A9E86-DEFE-43FE-B309-410F2846746A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7A9E86-DEFE-43FE-B309-410F2846746A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FE1B012-8A6F-4428-BFC8-A8796C0E4922}
+	EndGlobalSection
+EndGlobal
