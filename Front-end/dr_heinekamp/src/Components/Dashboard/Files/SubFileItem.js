@@ -19,7 +19,10 @@ const SubFileItem = (props) => {
             else if (!response.ok) {
                 throw new Error('Something went wrong!!!');
             }
-            const data = await response.json();
+            let url = response.url;
+            let a = document.createElement('a');
+            a.href = url;
+            a.click();
         }
         catch (error) {
             setError(error.message);
