@@ -33,3 +33,21 @@ There are a lot of ways to implement it, like considering a model to handle all 
 # Test
 The SF has been used 2 main types of testing. The first one is the End-to-End which all the sections such as front-end, back-end, database, DTOs and models, classes and functions, repositories and files, etc. will be tested. The second one is the XUnit test which is a unit test. The main section that has been considered for testing the SF is the controller. But other sections like repositories or extra classes and functions can be tested as a unit test. So in XUnit, a dummy data has been created to play a database role and then all repositories are invoked based on the controller that is going to test.
 
+# API Url
+
+Register: /api/auth/register 
+Login: /api/auth/login
+List of users: /api/users/list/
+List of files that users upload : /api/userfiles?userId=  user id 
+Upload main file : api/userfiles
+Upload multiple file: /api/userFiles/uploadmultiples
+List of subfiles /api/userfiles/listofsubfiles?fileId =   file id 
+Delete main file : /api/userfiles/delete?id= file id & userid= userid
+Delete multiple files : /api/userfiles/deletesubfiles?id=id&userfilesid=fileId
+Share : /api/share
+Main download : /api/download/download?userId=userid&fileId=fileid
+Download as a current user: /api/download/downloadbymyself?userid=userid&file=fileid
+Download sub files: /api/download/downloadsubfilesbymyself?userfileId=userfileId&subfileId=subfileid
+
+
+
