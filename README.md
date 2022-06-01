@@ -36,18 +36,18 @@ The SF has been used 2 main types of testing. The first one is the End-to-End wh
 # API Url
 
 Register: /api/auth/register 
-Login: /api/auth/login
-List of users: /api/users/list/
-List of files that users upload : /api/userfiles?userId=  user id 
-Upload main file : api/userfiles
-Upload multiple file: /api/userFiles/uploadmultiples
-List of subfiles /api/userfiles/listofsubfiles?fileId =   file id 
-Delete main file : /api/userfiles/delete?id= file id & userid= userid
-Delete multiple files : /api/userfiles/deletesubfiles?id=id&userfilesid=fileId
-Share : /api/share
-Main download : /api/download/download?userId=userid&fileId=fileid
-Download as a current user: /api/download/downloadbymyself?userid=userid&file=fileid
-Download sub files: /api/download/downloadsubfilesbymyself?userfileId=userfileId&subfileId=subfileid
+- Login: /api/auth/login
+- List of users: /api/users/list/
+- List of files that users upload : /api/userfiles?userId=  user id 
+- Upload main file : api/userfiles
+- Upload multiple file: /api/userFiles/uploadmultiples
+- List of subfiles /api/userfiles/listofsubfiles?fileId =   file id 
+- Delete main file : /api/userfiles/delete?id= file id & userid= userid
+- Delete multiple files : /api/userfiles/deletesubfiles?id=id&userfilesid=fileId
+- Share : /api/share
+- Main download : /api/download/download?userId=userid&fileId=fileid
+- Download as a current user: /api/download/downloadbymyself?userid=userid&file=fileid
+- Download sub files: /api/download/downloadsubfilesbymyself?userfileId=userfileId&subfileId=subfileid
 
 
 
